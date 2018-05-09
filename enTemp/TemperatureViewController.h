@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface TemperatureViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UINavigationBar *navigationBar;
+
 
 @end
+
+

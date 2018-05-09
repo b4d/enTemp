@@ -1,0 +1,243 @@
+<?xml version = "1.0" encoding = "utf-8" ?><Root>
+
+<Agent>
+  <Ver>1.0.0</Ver>
+  <XmlVer>1.0.0</XmlVer>
+  <DrupalVer>7.22</DrupalVer>
+  <DrupalUpd>7047</DrupalUpd>
+  <Name>SensDesk</Name>
+  <Addr>www.sensdesk.com</Addr>
+  <User></User>
+  <Timestamp>1379505761</Timestamp>
+</Agent>
+
+<Devices>
+      <Device dev_id="29">
+      <Agent>
+        <Name>Jan-Ares12</Name>
+        <Enable>1</Enable>
+        <MAC></MAC>
+        <IMEI>861785000296040</IMEI>
+        <Addr></Addr>
+        <LocalAddr></LocalAddr>
+        <Port>0</Port>
+        <LocalPort>0</LocalPort>
+        <Username></Username>
+        <Passwd></Passwd>
+        <Mask></Mask>
+        <GW></GW>
+        <Model devtype_id="53">HWg-Ares 12</Model>
+        <Incon incon_id="6">HWg PUSH via HTML</Incon>
+        <LogPer>60</LogPer>
+        <DatalogPer>3600</DatalogPer>
+        <Push push_id="1">Default</Push>
+        <Status>2</Status>
+        <Alias>Jan-Ares12</Alias>
+        <Description></Description>
+      </Agent>
+
+      <Time>
+        <Timezone>1</Timezone>
+        <Dst>11</Dst>
+        <Timestamp>TODO</Timestamp>
+      </Time>
+            <Groups>
+              <Group sens_group_id="0">  
+          <Key>NoGroup</Key>
+          <Name></Name>
+          <Alias></Alias>
+          <Description></Description>
+
+          <Sensors>
+                      <Sensor sens_id="170">
+              <Name>RH Jan BMW car</Name>
+              <ID>2776</ID>
+              <Senstype senstype_id="4">Generic sensor</Senstype>
+              <Units unit_id="5">%RH</Units>
+              <LogPer>60</LogPer>
+              <Exp>-1</Exp>
+              <Min>100</Min>
+              <Max>800</Max>
+              <Shift>0</Shift>
+              <Hyst>0</Hyst>
+              <Status><State>1</State><Alarm>0</Alarm></Status>
+              <Alias>RH Jan BMW car</Alias>
+              <Description></Description>
+              <Value>523</Value>
+              <Timestamp>1379498412</Timestamp>
+              <State>1</State>
+            </Sensor>
+                      <Sensor sens_id="175">
+              <Name>External Power</Name>
+              <ID>8</ID>
+              <Senstype senstype_id="2">Binary input</Senstype>
+              <Units unit_id="1"> </Units>
+              <LogPer>60</LogPer>
+              <Exp>0</Exp>
+              <Min>1</Min>
+              <Max>1</Max>
+              <Shift>0</Shift>
+              <Hyst>0</Hyst>
+              <Status><State>1</State><Alarm>0</Alarm></Status>
+              <Alias>External Power</Alias>
+              <Description></Description>
+              <Value>1</Value>
+              <Timestamp>1379498412</Timestamp>
+              <State>1</State>
+            </Sensor>
+                      <Sensor sens_id="174">
+              <Name>Input 2</Name>
+              <ID>2</ID>
+              <Senstype senstype_id="2">Binary input</Senstype>
+              <Units unit_id="1"> </Units>
+              <LogPer>60</LogPer>
+              <Exp>0</Exp>
+              <Min>1</Min>
+              <Max>1</Max>
+              <Shift>0</Shift>
+              <Hyst>0</Hyst>
+              <Status><State>4</State><Alarm>1</Alarm></Status>
+              <Alias>Input 2</Alias>
+              <Description></Description>
+              <Value>0</Value>
+              <Timestamp>1379498412</Timestamp>
+              <State>4</State>
+            </Sensor>
+                      <Sensor sens_id="172">
+              <Name>Battery Monitor</Name>
+              <ID>65535</ID>
+              <Senstype senstype_id="4">Generic sensor</Senstype>
+              <Units unit_id="34">%</Units>
+              <LogPer>60</LogPer>
+              <Exp>0</Exp>
+              <Min>1</Min>
+              <Max>100</Max>
+              <Shift>0</Shift>
+              <Hyst>0</Hyst>
+              <Status><State>1</State><Alarm>0</Alarm></Status>
+              <Alias>Battery Monitor</Alias>
+              <Description></Description>
+              <Value>100</Value>
+              <Timestamp>1379498412</Timestamp>
+              <State>1</State>
+            </Sensor>
+                      <Sensor sens_id="173">
+              <Name>Input 1</Name>
+              <ID>1</ID>
+              <Senstype senstype_id="2">Binary input</Senstype>
+              <Units unit_id="1"> </Units>
+              <LogPer>60</LogPer>
+              <Exp>0</Exp>
+              <Min>0</Min>
+              <Max>0</Max>
+              <Shift>0</Shift>
+              <Hyst>0</Hyst>
+              <Status><State>1</State><Alarm>0</Alarm></Status>
+              <Alias>DI Input 1</Alias>
+              <Description></Description>
+              <Value>0</Value>
+              <Timestamp>1379498412</Timestamp>
+              <State>1</State>
+            </Sensor>
+                      <Sensor sens_id="171">
+              <Name>T Jan BMW car</Name>
+              <ID>3776</ID>
+              <Senstype senstype_id="4">Generic sensor</Senstype>
+              <Units unit_id="2">C</Units>
+              <LogPer>60</LogPer>
+              <Exp>-3</Exp>
+              <Min>-10000</Min>
+              <Max>60000</Max>
+              <Shift>0</Shift>
+              <Hyst>0</Hyst>
+              <Status><State>1</State><Alarm>0</Alarm></Status>
+              <Alias>T Jan BMW car</Alias>
+              <Description></Description>
+              <Value>21937</Value>
+              <Timestamp>1379498412</Timestamp>
+              <State>1</State>
+            </Sensor>
+                    </Sensors>
+        </Group>
+            </Groups>
+          </Device>
+    <Device dev_id="36">
+      <Agent>
+        <Name>HWg-STE Push</Name>
+        <Enable>1</Enable>
+        <MAC>00:0A:59:02:0C:E9</MAC>
+        <IMEI></IMEI>
+        <Addr>192.168.10.21</Addr>
+        <LocalAddr>192.168.10.21</LocalAddr>
+        <Port>80</Port>
+        <LocalPort>80</LocalPort>
+        <Username></Username>
+        <Passwd></Passwd>
+        <Mask>192.168.10.1</Mask>
+        <GW>255.255.255.0</GW>
+        <Model devtype_id="52">HWg-STE Push</Model>
+        <Incon incon_id="6">HWg PUSH via HTML</Incon>
+        <LogPer>60</LogPer>
+        <DatalogPer>3600</DatalogPer>
+        <Push push_id="1">Default</Push>
+        <Status>2</Status>
+        <Alias>HWg-STE Push Jan Home</Alias>
+        <Description></Description>
+      </Agent>
+
+      <Time>
+        <Timezone>1</Timezone>
+        <Dst>11</Dst>
+        <Timestamp>TODO</Timestamp>
+      </Time>
+            <Groups>
+              <Group sens_group_id="0">  
+          <Key>NoGroup</Key>
+          <Name></Name>
+          <Alias></Alias>
+          <Description></Description>
+
+          <Sensors>
+                      <Sensor sens_id="472">
+              <Name>Sensor 5742</Name>
+              <ID>5742</ID>
+              <Senstype senstype_id="4">Generic sensor</Senstype>
+              <Units unit_id="2">C</Units>
+              <LogPer>60</LogPer>
+              <Exp>-1</Exp>
+              <Min>150</Min>
+              <Max>250</Max>
+              <Shift>0</Shift>
+              <Hyst>10</Hyst>
+              <Status><State>1</State><Alarm>0</Alarm></Status>
+              <Alias>Jan Test indoor</Alias>
+              <Description></Description>
+              <Value>225</Value>
+              <Timestamp>1379495154</Timestamp>
+              <State>1</State>
+            </Sensor>
+                      <Sensor sens_id="473">
+              <Name>Sensor 52080</Name>
+              <ID>52080</ID>
+              <Senstype senstype_id="4">Generic sensor</Senstype>
+              <Units unit_id="2">C</Units>
+              <LogPer>60</LogPer>
+              <Exp>-1</Exp>
+              <Min>100</Min>
+              <Max>600</Max>
+              <Shift>0</Shift>
+              <Hyst>10</Hyst>
+              <Status><State>1</State><Alarm>0</Alarm></Status>
+              <Alias>Jan Home Outdoor</Alias>
+              <Description></Description>
+              <Value>121</Value>
+              <Timestamp>1379495154</Timestamp>
+              <State>1</State>
+            </Sensor>
+                    </Sensors>
+        </Group>
+            </Groups>
+          </Device>
+</Devices>
+
+</Root>

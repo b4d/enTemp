@@ -13,15 +13,26 @@
 @end
 
 @implementation TemperatureViewController
+@synthesize navigationBar;
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    
 	// Do any additional setup after loading the view, typically from a nib.
+    //self.navigationController.navigationBar.tintColor = [UIColor blackColor];
+    //[[UINavigationBar appearance] setTintColor:[UIColor blackColor]];
+    //[self.navigationController setNavigationBarHidden:NO animated:YES];
+    
+    
+
+    
 }
 
 - (void)viewDidUnload
 {
+    [self setNavigationBar:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }
