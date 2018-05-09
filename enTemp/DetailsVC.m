@@ -82,6 +82,13 @@
     
     labelValue.text = sensor.Value;
     
+    if ([sensor.Units isEqualToString:@""]) {
+        if ([sensor.Value isEqualToString:@"1"])
+            labelValue.text = @"ON";
+        else if ([sensor.Value isEqualToString:@"0"])
+            labelValue.text = @"OFF";
+    }
+    
     if (([sensor.Units isEqualToString:@"F"]) || [sensor.Units isEqualToString:@"C"] )
         labelUnits.text = [@"°" stringByAppendingString:sensor.Units];
     else

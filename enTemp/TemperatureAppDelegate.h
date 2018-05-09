@@ -25,7 +25,6 @@
  */
 
 #import <UIKit/UIKit.h>
-#import "GDataXMLNode.h"
 
 @interface TemperatureAppDelegate : NSObject <UIApplicationDelegate> {
     NSMutableArray *sensors;

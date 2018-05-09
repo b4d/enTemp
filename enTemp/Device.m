@@ -10,4 +10,19 @@
 
 @implementation Device
 
+@synthesize Name,groups;
+
+-(id)init {
+    return [self initWithName:@"name" groups:nil];
+}
+
+-(id)initWithName:(NSString *)name groups:(NSMutableArray *)groups1{
+    self = [super init];
+    if (self) {
+        self.Name = name;
+        self.groups = groups1;
+    }
+    return self;
+}
+
 @end

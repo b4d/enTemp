@@ -8,6 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
-@interface ParserCloud : NSObject
+@class Device;
 
+@interface ParserCloud : NSObject
++(Device *) loadDevice;
++(void) saveDevice:(Device *) device;
 @end

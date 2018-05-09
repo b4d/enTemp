@@ -10,4 +10,12 @@
 
 @interface Group : NSObject
 
+@property (nonatomic, retain) NSString *ID;
+@property (nonatomic, retain) NSString *Key;
+@property (nonatomic, retain) NSString *Name;
+
+@property (nonatomic, retain) NSString *Alias; //*
+@property (nonatomic, retain) NSString *Description;
+@property (nonatomic, retain) NSMutableArray *sensors;
+
 @end

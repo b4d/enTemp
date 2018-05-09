@@ -7,6 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B308B13B178E02E900515DBD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B308B13A178E02E900515DBD /* Images.xcassets */; };
+		B30BD15C17DC6A7500201F0D /* binary@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B30BD15B17DC6A7500201F0D /* binary@2x.png */; };
+		B3362C8B163ED23C003A9356 /* current@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3362C83163ED23C003A9356 /* current@2x.png */; };
+		B3362C8C163ED23C003A9356 /* dewpoint@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3362C84163ED23C003A9356 /* dewpoint@2x.png */; };
+		B3362C8D163ED23C003A9356 /* gauge@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3362C85163ED23C003A9356 /* gauge@2x.png */; };
+		B3362C8E163ED23C003A9356 /* humidity@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3362C86163ED23C003A9356 /* humidity@2x.png */; };
+		B3362C8F163ED23C003A9356 /* pressure@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3362C87163ED23C003A9356 /* pressure@2x.png */; };
+		B3362C90163ED23C003A9356 /* temperature@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3362C88163ED23C003A9356 /* temperature@2x.png */; };
+		B3362C91163ED23C003A9356 /* time@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3362C89163ED23C003A9356 /* time@2x.png */; };
+		B3362C92163ED23C003A9356 /* voltage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3362C8A163ED23C003A9356 /* voltage@2x.png */; };
+		B3428AB8155D0C64001B2890 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B3428AB7155D0C64001B2890 /* Settings.bundle */; };
+		B3428AFD155D1732001B2890 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3428AFC155D1732001B2890 /* SettingsViewController.m */; };
+		B35D3E6317A288C900EF10B4 /* settings-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B35D3E6217A288C900EF10B4 /* settings-icon@2x.png */; };
+		B360C9D51561A56C008854D8 /* CreditsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B360C9D41561A56C008854D8 /* CreditsViewController.m */; };
+		B369599517E752D9009C4879 /* DetailsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B369599417E752D9009C4879 /* DetailsVC.m */; };
+		B383248717BD6F4C00A79850 /* XMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = B383248617BD6F4C00A79850 /* XMLParser.m */; };
+		B3A7C3C7161EE3CA0083D633 /* EN-FIST@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3A7C3C6161EE3CA0083D633 /* EN-FIST@2x.png */; };
+		B3C88952156D88BF00AB034B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3C88951156D88BF00AB034B /* QuartzCore.framework */; };
+		B3E0D600155BC62E0090476B /* SensorsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E0D5FF155BC62E0090476B /* SensorsViewController.m */; };
+		B3E0D60C155BCD130090476B /* Sensor.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E0D60B155BCD130090476B /* Sensor.m */; };
+		B3E78CF116BEE25A00D3D3F3 /* EN-FIST.png in Resources */ = {isa = PBXBuildFile; fileRef = B3E78CF016BEE25A00D3D3F3 /* EN-FIST.png */; };
 		B3F1A8F1155AB28C004CFA47 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3F1A8F0155AB28C004CFA47 /* UIKit.framework */; };
 		B3F1A8F3155AB28C004CFA47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3F1A8F2155AB28C004CFA47 /* Foundation.framework */; };
 		B3F1A8F5155AB28C004CFA47 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3F1A8F4155AB28C004CFA47 /* CoreGraphics.framework */; };
@@ -14,23 +35,47 @@
 		B3F1A8FD155AB28C004CFA47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F1A8FC155AB28C004CFA47 /* main.m */; };
 		B3F1A901155AB28C004CFA47 /* TemperatureAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F1A900155AB28C004CFA47 /* TemperatureAppDelegate.m */; };
 		B3F1A904155AB28C004CFA47 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3F1A902155AB28C004CFA47 /* MainStoryboard.storyboard */; };
-		B3F1A907155AB28C004CFA47 /* TemperatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F1A906155AB28C004CFA47 /* TemperatureViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B308B13A178E02E900515DBD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B30BD15B17DC6A7500201F0D /* binary@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "binary@2x.png"; sourceTree = "<group>"; };
+		B3362C83163ED23C003A9356 /* current@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "current@2x.png"; sourceTree = "<group>"; };
+		B3362C84163ED23C003A9356 /* dewpoint@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dewpoint@2x.png"; sourceTree = "<group>"; };
+		B3362C85163ED23C003A9356 /* gauge@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gauge@2x.png"; sourceTree = "<group>"; };
+		B3362C86163ED23C003A9356 /* humidity@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "humidity@2x.png"; sourceTree = "<group>"; };
+		B3362C87163ED23C003A9356 /* pressure@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pressure@2x.png"; sourceTree = "<group>"; };
+		B3362C88163ED23C003A9356 /* temperature@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "temperature@2x.png"; sourceTree = "<group>"; };
+		B3362C89163ED23C003A9356 /* time@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "time@2x.png"; sourceTree = "<group>"; };
+		B3362C8A163ED23C003A9356 /* voltage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voltage@2x.png"; sourceTree = "<group>"; };
+		B3428AB7155D0C64001B2890 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		B3428AFB155D1732001B2890 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		B3428AFC155D1732001B2890 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		B35D3E6217A288C900EF10B4 /* settings-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settings-icon@2x.png"; sourceTree = "<group>"; };
+		B360C9D31561A56C008854D8 /* CreditsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreditsViewController.h; sourceTree = "<group>"; };
+		B360C9D41561A56C008854D8 /* CreditsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreditsViewController.m; sourceTree = "<group>"; };
+		B369599317E752D9009C4879 /* DetailsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsVC.h; sourceTree = "<group>"; };
+		B369599417E752D9009C4879 /* DetailsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsVC.m; sourceTree = "<group>"; };
+		B383248517BD6F4C00A79850 /* XMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLParser.h; sourceTree = "<group>"; };
+		B383248617BD6F4C00A79850 /* XMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLParser.m; sourceTree = "<group>"; };
+		B3A7C3C6161EE3CA0083D633 /* EN-FIST@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "EN-FIST@2x.png"; sourceTree = "<group>"; };
+		B3C88951156D88BF00AB034B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B3E0D5FE155BC62E0090476B /* SensorsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SensorsViewController.h; sourceTree = "<group>"; };
+		B3E0D5FF155BC62E0090476B /* SensorsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SensorsViewController.m; sourceTree = "<group>"; };
+		B3E0D60A155BCD130090476B /* Sensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sensor.h; sourceTree = "<group>"; };
+		B3E0D60B155BCD130090476B /* Sensor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sensor.m; sourceTree = "<group>"; };
+		B3E78CF016BEE25A00D3D3F3 /* EN-FIST.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "EN-FIST.png"; sourceTree = "<group>"; };
 		B3F1A8EC155AB28C004CFA47 /* enTemp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = enTemp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3F1A8F0155AB28C004CFA47 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B3F1A8F2155AB28C004CFA47 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B3F1A8F4155AB28C004CFA47 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		B3F1A8F8155AB28C004CFA47 /* enTemp-Info.plist */ = {isa = PBXFileReference; path = "enTemp-Info.plist"; sourceTree = "<group>"; };
+		B3F1A8F8155AB28C004CFA47 /* enTemp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "enTemp-Info.plist"; sourceTree = "<group>"; };
 		B3F1A8FA155AB28C004CFA47 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B3F1A8FC155AB28C004CFA47 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B3F1A8FE155AB28C004CFA47 /* enTemp-Prefix.pch */ = {isa = PBXFileReference; path = "enTemp-Prefix.pch"; sourceTree = "<group>"; };
-		B3F1A8FF155AB28C004CFA47 /* TemperatureAppDelegate.h */ = {isa = PBXFileReference; path = TemperatureAppDelegate.h; sourceTree = "<group>"; };
+		B3F1A8FE155AB28C004CFA47 /* enTemp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "enTemp-Prefix.pch"; sourceTree = "<group>"; };
+		B3F1A8FF155AB28C004CFA47 /* TemperatureAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TemperatureAppDelegate.h; sourceTree = "<group>"; };
 		B3F1A900155AB28C004CFA47 /* TemperatureAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TemperatureAppDelegate.m; sourceTree = "<group>"; };
 		B3F1A903155AB28C004CFA47 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		B3F1A905155AB28C004CFA47 /* TemperatureViewController.h */ = {isa = PBXFileReference; path = TemperatureViewController.h; sourceTree = "<group>"; };
-		B3F1A906155AB28C004CFA47 /* TemperatureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TemperatureViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3C88952156D88BF00AB034B /* QuartzCore.framework in Frameworks */,
 				B3F1A8F1155AB28C004CFA47 /* UIKit.framework in Frameworks */,
 				B3F1A8F3155AB28C004CFA47 /* Foundation.framework in Frameworks */,
 				B3F1A8F5155AB28C004CFA47 /* CoreGraphics.framework in Frameworks */,
@@ -47,6 +93,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B32553851585D88700ECDB6F /* XML */ = {
+			isa = PBXGroup;
+			children = (
+				B383248517BD6F4C00A79850 /* XMLParser.h */,
+				B383248617BD6F4C00A79850 /* XMLParser.m */,
+			);
+			name = XML;
+			sourceTree = "<group>";
+		};
+		B3362C82163ED23C003A9356 /* icons@2x */ = {
+			isa = PBXGroup;
+			children = (
+				B3362C83163ED23C003A9356 /* current@2x.png */,
+				B3362C84163ED23C003A9356 /* dewpoint@2x.png */,
+				B3362C85163ED23C003A9356 /* gauge@2x.png */,
+				B3362C86163ED23C003A9356 /* humidity@2x.png */,
+				B3362C87163ED23C003A9356 /* pressure@2x.png */,
+				B30BD15B17DC6A7500201F0D /* binary@2x.png */,
+				B3362C88163ED23C003A9356 /* temperature@2x.png */,
+				B3362C89163ED23C003A9356 /* time@2x.png */,
+				B3362C8A163ED23C003A9356 /* voltage@2x.png */,
+			);
+			path = "icons@2x";
+			sourceTree = "<group>";
+		};
+		B3E0D5EF155BC1300090476B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B3362C82163ED23C003A9356 /* icons@2x */,
+				B35D3E6217A288C900EF10B4 /* settings-icon@2x.png */,
+				B3A7C3C6161EE3CA0083D633 /* EN-FIST@2x.png */,
+				B3E78CF016BEE25A00D3D3F3 /* EN-FIST.png */,
+			);
+			name = Images;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		B3F1A8E1155AB28B004CFA47 = {
 			isa = PBXGroup;
 			children = (
@@ -67,6 +150,7 @@
 		B3F1A8EF155AB28C004CFA47 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B3C88951156D88BF00AB034B /* QuartzCore.framework */,
 				B3F1A8F0155AB28C004CFA47 /* UIKit.framework */,
 				B3F1A8F2155AB28C004CFA47 /* Foundation.framework */,
 				B3F1A8F4155AB28C004CFA47 /* CoreGraphics.framework */,
@@ -77,11 +161,21 @@
 		B3F1A8F6155AB28C004CFA47 /* enTemp */ = {
 			isa = PBXGroup;
 			children = (
+				B3F1A902155AB28C004CFA47 /* MainStoryboard.storyboard */,
 				B3F1A8FF155AB28C004CFA47 /* TemperatureAppDelegate.h */,
 				B3F1A900155AB28C004CFA47 /* TemperatureAppDelegate.m */,
-				B3F1A902155AB28C004CFA47 /* MainStoryboard.storyboard */,
-				B3F1A905155AB28C004CFA47 /* TemperatureViewController.h */,
-				B3F1A906155AB28C004CFA47 /* TemperatureViewController.m */,
+				B3E0D5FE155BC62E0090476B /* SensorsViewController.h */,
+				B3E0D5FF155BC62E0090476B /* SensorsViewController.m */,
+				B3E0D60A155BCD130090476B /* Sensor.h */,
+				B3E0D60B155BCD130090476B /* Sensor.m */,
+				B3428AFB155D1732001B2890 /* SettingsViewController.h */,
+				B3428AFC155D1732001B2890 /* SettingsViewController.m */,
+				B369599317E752D9009C4879 /* DetailsVC.h */,
+				B369599417E752D9009C4879 /* DetailsVC.m */,
+				B360C9D31561A56C008854D8 /* CreditsViewController.h */,
+				B360C9D41561A56C008854D8 /* CreditsViewController.m */,
+				B3428AB7155D0C64001B2890 /* Settings.bundle */,
+				B308B13A178E02E900515DBD /* Images.xcassets */,
 				B3F1A8F7155AB28C004CFA47 /* Supporting Files */,
 			);
 			path = enTemp;
@@ -90,6 +184,8 @@
 		B3F1A8F7155AB28C004CFA47 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B3E0D5EF155BC1300090476B /* Images */,
+				B32553851585D88700ECDB6F /* XML */,
 				B3F1A8F8155AB28C004CFA47 /* enTemp-Info.plist */,
 				B3F1A8F9155AB28C004CFA47 /* InfoPlist.strings */,
 				B3F1A8FC155AB28C004CFA47 /* main.m */,
@@ -125,8 +221,18 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = Temperature;
-				LastUpgradeCheck = 0430;
+				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Kemijski Institut, Ljubljana";
+				TargetAttributes = {
+					B3F1A8EB155AB28C004CFA47 = {
+						DevelopmentTeam = 82W895VMTF;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
 			};
 			buildConfigurationList = B3F1A8E6155AB28B004CFA47 /* Build configuration list for PBXProject "enTemp" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -152,6 +258,20 @@
 			files = (
 				B3F1A8FB155AB28C004CFA47 /* InfoPlist.strings in Resources */,
 				B3F1A904155AB28C004CFA47 /* MainStoryboard.storyboard in Resources */,
+				B3428AB8155D0C64001B2890 /* Settings.bundle in Resources */,
+				B3A7C3C7161EE3CA0083D633 /* EN-FIST@2x.png in Resources */,
+				B308B13B178E02E900515DBD /* Images.xcassets in Resources */,
+				B3362C8B163ED23C003A9356 /* current@2x.png in Resources */,
+				B3362C8C163ED23C003A9356 /* dewpoint@2x.png in Resources */,
+				B3362C8D163ED23C003A9356 /* gauge@2x.png in Resources */,
+				B3362C8E163ED23C003A9356 /* humidity@2x.png in Resources */,
+				B3362C8F163ED23C003A9356 /* pressure@2x.png in Resources */,
+				B3362C90163ED23C003A9356 /* temperature@2x.png in Resources */,
+				B3362C91163ED23C003A9356 /* time@2x.png in Resources */,
+				B3362C92163ED23C003A9356 /* voltage@2x.png in Resources */,
+				B35D3E6317A288C900EF10B4 /* settings-icon@2x.png in Resources */,
+				B3E78CF116BEE25A00D3D3F3 /* EN-FIST.png in Resources */,
+				B30BD15C17DC6A7500201F0D /* binary@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,9 +282,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B383248717BD6F4C00A79850 /* XMLParser.m in Sources */,
 				B3F1A8FD155AB28C004CFA47 /* main.m in Sources */,
 				B3F1A901155AB28C004CFA47 /* TemperatureAppDelegate.m in Sources */,
-				B3F1A907155AB28C004CFA47 /* TemperatureViewController.m in Sources */,
+				B3E0D600155BC62E0090476B /* SensorsViewController.m in Sources */,
+				B3E0D60C155BCD130090476B /* Sensor.m in Sources */,
+				B369599517E752D9009C4879 /* DetailsVC.m in Sources */,
+				B3428AFD155D1732001B2890 /* SettingsViewController.m in Sources */,
+				B360C9D51561A56C008854D8 /* CreditsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,8 +319,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -208,9 +339,13 @@
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -219,17 +354,26 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -238,10 +382,18 @@
 		B3F1A90B155AB28C004CFA47 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: EN-FIST Center Odlicnosti (82W895VMTF)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "enTemp/enTemp-Prefix.pch";
 				INFOPLIST_FILE = "enTemp/enTemp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "2BE68962-89DA-4B8E-BA5C-DCF8519532E2";
+				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -249,10 +401,18 @@
 		B3F1A90C155AB28C004CFA47 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: EN-FIST Center Odlicnosti (82W895VMTF)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "enTemp/enTemp-Prefix.pch";
 				INFOPLIST_FILE = "enTemp/enTemp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -276,6 +436,7 @@
 				B3F1A90C155AB28C004CFA47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

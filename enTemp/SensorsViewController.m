@@ -43,11 +43,11 @@
 
     // START PARSING
     
-//    NSURL *url = [[NSURL alloc] initWithString:[NSString stringWithFormat:@"http://%@:%@/values.xml",ip,port]];
+    NSURL *url = [[NSURL alloc] initWithString:[NSString stringWithFormat:@"http://%@:%@/values.xml",ip,port]];
     //NSURL *url = [[NSURL alloc] initWithString:@"http://193.2.14.82:8088/values.xml"];
 //    NSURL *url = [[NSURL alloc] initWithString:@"http://192.168.65.240:8088/values.xml"];
     //NSURL *url  = [[NSURL alloc] initWithString:@"http://poseidon.hwg.cz/values.xml"];
-    NSURL *url  = [[NSURL alloc] initWithString:@"http://www.sensdesk.com/cs/user/75/values.xml"];
+//    NSURL *url  = [[NSURL alloc] initWithString:@"http://www.sensdesk.com/cs/user/75/values.xml"];
 	NSXMLParser *xmlParser = [[NSXMLParser alloc] initWithContentsOfURL:url];
     
 	
@@ -275,7 +275,7 @@
 {
 	UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"SensorCell"];
 	
-    UILabel *groupLabel = (UILabel *)[cell viewWithTag:105];
+//    UILabel *groupLabel = (UILabel *)[cell viewWithTag:105];
     UILabel *unitLabel = (UILabel *)[cell viewWithTag:104];
 	UILabel *nameLabel = (UILabel *)[cell viewWithTag:103];
 	UILabel *valueLabel = (UILabel *)[cell viewWithTag:102];

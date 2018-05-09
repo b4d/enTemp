@@ -10,4 +10,7 @@
 
 @interface Device : NSObject
 
+@property (nonatomic, retain) NSString *Name;
+@property (nonatomic, retain) NSMutableArray *groups;
+
 @end
