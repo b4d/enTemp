@@ -44,8 +44,8 @@
     // START PARSING
     
     NSURL *url = [[NSURL alloc] initWithString:[NSString stringWithFormat:@"http://%@:%@/values.xml",ip,port]];
-    //NSURL *url = [[NSURL alloc] initWithString:@"http://193.2.14.82:8088/values.xml"];
-//    NSURL *url = [[NSURL alloc] initWithString:@"http://192.168.65.240:8088/values.xml"];
+    //NSURL *url = [[NSURL alloc] initWithString:@"http://xxx:8088/values.xml"];
+//    NSURL *url = [[NSURL alloc] initWithString:@"http://xxx:8088/values.xml"];
     //NSURL *url  = [[NSURL alloc] initWithString:@"http://poseidon.hwg.cz/values.xml"];
 //    NSURL *url  = [[NSURL alloc] initWithString:@"http://www.sensdesk.com/cs/user/75/values.xml"];
 	NSXMLParser *xmlParser = [[NSXMLParser alloc] initWithContentsOfURL:url];
